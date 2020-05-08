@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebAPP_Master_TRY2.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+    <style >
+        li{
+            padding-left:100px;
+        }
+
+    </style>
+    <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark" >
+        <img src="clipart-png-laptop-removebg-preview.png" height="40"/>
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="WebForm1.aspx"> Home </a></li>
+            <li class="nav-item"><a class="nav-link" href="WebForm2.aspx"> About </a></li>
+            <li class="nav-item"><a class="nav-link" href="WebForm3.aspx"> Contact US</a></li>
+        </ul>
+    </nav>
+
+    <footer class="page-footer font-small blue  text-center" style="bottom:0;position:fixed;left:0; text-align:center; background-color:darkblue;width:100% ">
+    <div class="footer-copyright text-center" style="color:white"> © 2020 Copyright : <a href="WebForm1.aspx" style="color:white"> P12_18012021083</a> </div>
+        </footer>
+    <asp:ContentPlaceHolder ID="body" runat="server">
+
+      </asp:ContentPlaceHolder>
+</body>
+</html>
